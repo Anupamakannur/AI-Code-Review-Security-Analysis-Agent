@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Build folders
+dist/
+build/
+
+# Python venvs and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Chroma DB and local data
+backend/app/data/chroma/
+backend/data/chroma/
+
+# OS files
+.DS_Store
+Thumbs.db
